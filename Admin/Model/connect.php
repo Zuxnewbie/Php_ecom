@@ -34,5 +34,9 @@ class connect
 		return($results);
 	}
 
+	public function lastInsertId()
+    {
+        return $this->db->lastInsertId();
+    }
 }
 ?>

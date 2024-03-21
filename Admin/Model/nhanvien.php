@@ -7,5 +7,7 @@ class nhanvien{
         $result=$db->getInstance($select);
         return $result;
     }
+
+    
 }
 ?>
